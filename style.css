@@ -1,0 +1,101 @@
+body {
+	background-color: lightgrey;
+	color: rgba(0, 200, 255, 1.0);
+	font-family: Times New Roman, sans-serif;
+	font-size: 25px;
+	line line-height: 1.6;
+	letter-spacing: 0px;
+	font-weight: lighter;
+}
+
+h1, h2 {
+	color: rgba(0, 20, 200, 1.0);
+	line line-height: 1.6;
+	letter-spacing: 0px;
+	font-family: Vollkorn;
+	font-weight: lighter;
+}
+
+h1{
+	font-size: 60px;
+}
+
+h2{
+	font-size: 35px;
+}
+
+a{
+	text-decoration: none;
+	color: rgba(0, 200, 255, 1.0);
+	font-family: Courrier;
+	font-size: 23px;
+}
+
+a:hover{
+	color : rgba(0, 200, 255, 1.0);
+}
+
+/* Custom design with class*/
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-midth:  500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-midth:  500px) {
+	.container {
+		width: 600px;
+	}
+}
+
+.card-white {
+	background-color: whitesmoke;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: rgba(0, 255, 200, 1.0);
+	color: rgba(0, 200, 255, 1.0);
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: rgba(0, 200, 255, 1.0);
+	color: rgba(0, 255, 200, 1.0);
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 40px;
+	color: rgba(0, 200, 255, 1.0);
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
